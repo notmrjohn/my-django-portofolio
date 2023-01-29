@@ -1,0 +1,18 @@
+%answer-appearance {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+$color-yes: green;
+$color-no: red;
+
+#answer-yes {
+    @extend %answer-appearance;
+    color: $color-yes;
+}
+
+#answer-no {
+    @extend %answer-appearance;
+    color: $color-no;
+}
